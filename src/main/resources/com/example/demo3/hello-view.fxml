@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.HelloController">
+   <children>
+      <TextField fx:id="name" layoutX="12.8" layoutY="25.0" prefHeight="26.0" prefWidth="173.0" promptText="имя" AnchorPane.leftAnchor="13.0" />
+      <TextField fx:id="surname" layoutX="11.0" layoutY="58.0" prefHeight="26.0" prefWidth="174.0" promptText="фамилия" AnchorPane.leftAnchor="11.0" />
+      <TextField fx:id="patronymic" layoutX="13.0" layoutY="95.0" prefHeight="26.0" prefWidth="174.0" promptText="отчество" AnchorPane.leftAnchor="12.0" />
+      <ComboBox fx:id="programBox" layoutX="14.0" layoutY="200.0" prefHeight="26.0" prefWidth="174.0" promptText="программа" />
+      <RadioButton fx:id="man" layoutX="14.0" layoutY="147.0" mnemonicParsing="false" text="мужчина" />
+      <RadioButton fx:id="women" layoutX="119.0" layoutY="147.0" mnemonicParsing="false" text="женщина" />
+      <Button layoutX="50.0" layoutY="348.0" mnemonicParsing="false" onAction="#onClick" prefHeight="26.0" prefWidth="81.0" text="отправить" AnchorPane.leftAnchor="50.0" />
+      <CheckBox fx:id="check1" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" text="страховка" />
+      <CheckBox fx:id="check3" layoutX="15.0" layoutY="277.0" mnemonicParsing="false" text="бассейн" />
+      <CheckBox fx:id="check2" layoutX="104.0" layoutY="244.0" mnemonicParsing="false" text="детская комната" />
+      <CheckBox fx:id="check4" layoutX="105.0" layoutY="277.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="154.0" text="групповые программы" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fffb2" height="407.0" layoutX="329.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="273.0" />
+      <Label fx:id="name2" layoutX="345.0" layoutY="29.0" prefHeight="18.0" prefWidth="235.0" />
+      <Label fx:id="surnane2" layoutX="345.0" layoutY="58.0" prefHeight="18.0" prefWidth="235.0" />
+      <Label fx:id="patronymic2" layoutX="345.0" layoutY="100.0" prefHeight="18.0" prefWidth="244.0" />
+      <Label fx:id="man2" layoutX="346.0" layoutY="139.0" prefHeight="18.0" prefWidth="235.0" />
+      <Label fx:id="program2" layoutX="345.0" layoutY="289.0" prefHeight="37.0" prefWidth="244.0" />
+      <Label fx:id="check21" layoutX="346.0" layoutY="378.0" prefHeight="3.0" prefWidth="235.0" />
+      <Label fx:id="check22" layoutX="346.0" layoutY="342.0" prefHeight="26.0" prefWidth="235.0" />
+      <Label fx:id="check23" layoutX="345.0" layoutY="317.0" prefHeight="26.0" prefWidth="244.0" />
+   </children>
+</AnchorPane>
